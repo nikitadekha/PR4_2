@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let numberQuestion = 0;
 
         const renderAnswers = (index) => {
-            formAnswers.innerHTML = ""; // Очищаємо попередні відповіді
+            formAnswers.innerHTML = ""; 
             questions[index].answers.forEach((answer) => {
                 const answerItem = document.createElement('div');
                 answerItem.classList.add('answers-item', 'd-flex', 'flex-column');
